@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bintang Padang</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css" />
+
+    <!-- my style css -->
+    <link rel="stylesheet" href="assets/style.css" />
+
+    <!-- icon fontawesome css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <nav
+        class="navbar navbar-expand-lg bg-warning shadow-sm border-2 border-bottom fixed-top"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="assets/img/brand.png"
+              alt="Logo"
+              width="50"
+              height="44"
+              class="d-inline-block align-text-center"
+            />
+            Bintang Padang
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#">Menu</a>
+              <a class="nav-link" href="#">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- end of header -->
+
+    <!-- carousel -->
+    <div
+      id="carouselExampleCaptions"
+      class="carousel carousel-fade slide"
+      data-bs-ride="carousel"
+      data-bs-pause="false"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/img/1.jpg" class="d-block w-100" alt="Gambar 1" />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Menu 1</h5>
+            <p>Enak Banget</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/2.jpg" class="d-block w-100" alt="Gambar 2" />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Menu 2</h5>
+            <p>Medium Rare memang paling the best</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/3.jpg" class="d-block w-100" alt="gambar 3" />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Menu 3</h5>
+            <p>Gila rasanya nendang</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#FFC107"
+        fill-opacity="1"
+        d="M0,128L30,128C60,128,120,128,180,138.7C240,149,300,171,360,154.7C420,139,480,85,540,69.3C600,53,660,75,720,106.7C780,139,840,181,900,176C960,171,1020,117,1080,117.3C1140,117,1200,171,1260,181.3C1320,192,1380,160,1410,144L1440,128L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z"
+      ></path>
+    </svg>
+    <!-- end of carousel -->
+
+    <!-- about -->
+    <section id="about">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <h2>About</h2>
+          <div class="col-md-4">
+            <img src="assets/img/brand.png" alt="Brand" />
+          </div>
+          <div class="col-md-6 pt-5">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia nihil
+            rem laborum hic veritatis odio eos iusto ad! At, accusantium quam
+            quod rerum consequatur Lorem, ipsum dolor sit amet consectetur
+            adipisicing elit. Laudantium corporis sit laborum odio quaerat
+            eveniet provident reprehenderit praesentium dolore ratione.
+          </div>
+        </div>
+      </div>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        style="margin-bottom: -2px"
+        viewBox="0 0 1440 320"
+      >
+        <path
+          fill="#FFC107"
+          fill-opacity="1"
+          d="M0,32L21.8,42.7C43.6,53,87,75,131,117.3C174.5,160,218,224,262,224C305.5,224,349,160,393,133.3C436.4,107,480,117,524,122.7C567.3,128,611,128,655,144C698.2,160,742,192,785,197.3C829.1,203,873,181,916,144C960,107,1004,53,1047,74.7C1090.9,96,1135,192,1178,202.7C1221.8,213,1265,139,1309,138.7C1352.7,139,1396,213,1418,250.7L1440,288L1440,320L1418.2,320C1396.4,320,1353,320,1309,320C1265.5,320,1222,320,1178,320C1134.5,320,1091,320,1047,320C1003.6,320,960,320,916,320C872.7,320,829,320,785,320C741.8,320,698,320,655,320C610.9,320,567,320,524,320C480,320,436,320,393,320C349.1,320,305,320,262,320C218.2,320,175,320,131,320C87.3,320,44,320,22,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- end of about -->
+
+    <!-- menu -->
+    <section id="menu" class="bg-warning">
+      <div class="container">
+        <div class="row text-center">
+          <h2 class="pb-5">Menu</h2>
+          <div class="col-md">
+            <div class="card">
+              <img src="assets/img/m1.jpg" class="card-img-top" alt="Menu 1" />
+              <div class="card-body">
+                <h5 class="card-title">Steak 1</h5>
+                <p class="card-text">Ateak 1 Rasanya sangat nikmat.</p>
+                <a
+                  href="#"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target=".modal"
+                >
+                  Detail</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card">
+              <img src="assets/img/m2.jpg" class="card-img-top" alt="menu 2" />
+              <div class="card-body">
+                <h5 class="card-title">Steak 2</h5>
+                <p class="card-text">Cukup mengugah selera.</p>
+                <a href="#" class="btn btn-primary">Detail</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card">
+              <img src="assets/img/m3.jpg" class="card-img-top" alt="Menu 3" />
+              <div class="card-body">
+                <h5 class="card-title">Steak 3</h5>
+                <p class="card-text">Terlihat menarik.</p>
+                <a href="#" class="btn btn-primary">Detail</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card">
+              <img src="assets/img/m4.jpg" class="card-img-top" alt="Menu 4" />
+              <div class="card-body">
+                <h5 class="card-title">Steak 4</h5>
+                <p class="card-text">Sangat juicy dan flavor.</p>
+                <a href="#" class="btn btn-primary">Detail</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#FFC107"
+        fill-opacity="1"
+        d="M0,96L10.4,117.3C20.9,139,42,181,63,202.7C83.5,224,104,224,125,234.7C146.1,245,167,267,188,277.3C208.7,288,230,288,250,266.7C271.3,245,292,203,313,176C333.9,149,355,139,376,128C396.5,117,417,107,438,106.7C459.1,107,480,117,501,106.7C521.7,96,543,64,563,58.7C584.3,53,605,75,626,90.7C647,107,668,117,689,154.7C709.6,192,730,256,751,240C772.2,224,793,128,814,112C834.8,96,856,160,877,160C897.4,160,918,96,939,101.3C960,107,981,181,1002,202.7C1022.6,224,1043,192,1064,181.3C1085.2,171,1106,181,1127,181.3C1147.8,181,1169,171,1190,160C1210.4,149,1231,139,1252,160C1273,181,1294,235,1315,234.7C1335.7,235,1357,181,1377,160C1398.3,139,1419,149,1430,154.7L1440,160L1440,0L1429.6,0C1419.1,0,1398,0,1377,0C1356.5,0,1336,0,1315,0C1293.9,0,1273,0,1252,0C1231.3,0,1210,0,1190,0C1168.7,0,1148,0,1127,0C1106.1,0,1085,0,1064,0C1043.5,0,1023,0,1002,0C980.9,0,960,0,939,0C918.3,0,897,0,877,0C855.7,0,835,0,814,0C793,0,772,0,751,0C730.4,0,710,0,689,0C667.8,0,647,0,626,0C605.2,0,584,0,563,0C542.6,0,522,0,501,0C480,0,459,0,438,0C417.4,0,397,0,376,0C354.8,0,334,0,313,0C292.2,0,271,0,250,0C229.6,0,209,0,188,0C167,0,146,0,125,0C104.3,0,83,0,63,0C41.7,0,21,0,10,0L0,0Z"
+      ></path>
+    </svg>
+    <!-- end of menu -->
+
+    <!-- contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row justify-content-center">
+          <h2 class="pb-5 text-center">Contact</h2>
+          <div class="col-md-5">
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+                <div id="emailHelp" class="form-text">
+                  We'll never share your email with anyone else.
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label"
+                  >Password</label
+                >
+                <input
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                />
+              </div>
+              <div class="mb-3 form-check">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="exampleCheck1"
+                />
+                <label class="form-check-label" for="exampleCheck1"
+                  >Check me out</label
+                >
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        style="margin-bottom: -2px"
+        viewBox="0 0 1440 320"
+      >
+        <path
+          fill="#FFC107"
+          fill-opacity="1"
+          d="M0,160L6.2,170.7C12.3,181,25,203,37,192C49.2,181,62,139,74,117.3C86.2,96,98,96,111,106.7C123.1,117,135,139,148,133.3C160,128,172,96,185,106.7C196.9,117,209,171,222,186.7C233.8,203,246,181,258,186.7C270.8,192,283,224,295,240C307.7,256,320,256,332,234.7C344.6,213,357,171,369,138.7C381.5,107,394,85,406,85.3C418.5,85,431,107,443,117.3C455.4,128,468,128,480,144C492.3,160,505,192,517,218.7C529.2,245,542,267,554,272C566.2,277,578,267,591,245.3C603.1,224,615,192,628,197.3C640,203,652,245,665,234.7C676.9,224,689,160,702,149.3C713.8,139,726,181,738,197.3C750.8,213,763,203,775,197.3C787.7,192,800,192,812,160C824.6,128,837,64,849,64C861.5,64,874,128,886,154.7C898.5,181,911,171,923,176C935.4,181,948,203,960,208C972.3,213,985,203,997,192C1009.2,181,1022,171,1034,170.7C1046.2,171,1058,181,1071,160C1083.1,139,1095,85,1108,53.3C1120,21,1132,11,1145,37.3C1156.9,64,1169,128,1182,149.3C1193.8,171,1206,149,1218,117.3C1230.8,85,1243,43,1255,21.3C1267.7,0,1280,0,1292,16C1304.6,32,1317,64,1329,90.7C1341.5,117,1354,139,1366,170.7C1378.5,203,1391,245,1403,218.7C1415.4,192,1428,96,1434,48L1440,0L1440,320L1433.8,320C1427.7,320,1415,320,1403,320C1390.8,320,1378,320,1366,320C1353.8,320,1342,320,1329,320C1316.9,320,1305,320,1292,320C1280,320,1268,320,1255,320C1243.1,320,1231,320,1218,320C1206.2,320,1194,320,1182,320C1169.2,320,1157,320,1145,320C1132.3,320,1120,320,1108,320C1095.4,320,1083,320,1071,320C1058.5,320,1046,320,1034,320C1021.5,320,1009,320,997,320C984.6,320,972,320,960,320C947.7,320,935,320,923,320C910.8,320,898,320,886,320C873.8,320,862,320,849,320C836.9,320,825,320,812,320C800,320,788,320,775,320C763.1,320,751,320,738,320C726.2,320,714,320,702,320C689.2,320,677,320,665,320C652.3,320,640,320,628,320C615.4,320,603,320,591,320C578.5,320,566,320,554,320C541.5,320,529,320,517,320C504.6,320,492,320,480,320C467.7,320,455,320,443,320C430.8,320,418,320,406,320C393.8,320,382,320,369,320C356.9,320,345,320,332,320C320,320,308,320,295,320C283.1,320,271,320,258,320C246.2,320,234,320,222,320C209.2,320,197,320,185,320C172.3,320,160,320,148,320C135.4,320,123,320,111,320C98.5,320,86,320,74,320C61.5,320,49,320,37,320C24.6,320,12,320,6,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- end of contact -->
+
+    <!-- footer -->
+    <footer class="py-5 text-center fs-4 bg-warning">
+      <p>Copyright &copy;2025</p>
+      <a href=""><i class="fa-brands fa-twitter"></i></a>
+      <a href=""><i class="fa-brands fa-facebook"></i></a>
+      <a href=""><i class="fa-brands fa-youtube"></i></a>
+    </footer>
+    <!-- end of footer -->
+
+    <!-- modal -->
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">...</div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of modal -->
+    <!-- bootstrap js -->
+    <script src="assets/bootstrap/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
